@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Model;
 
 namespace LocalShopAPI.Controllers
 {
@@ -14,6 +15,14 @@ namespace LocalShopAPI.Controllers
             if(username=="krishna" && password=="krishna")
             return true;
             else return false;
+        }
+
+        [HttpGet(Name = "Register")]
+        public Boolean Register(Register registerModel)
+        {
+           
+                return true;
+         
         }
     }
 }
