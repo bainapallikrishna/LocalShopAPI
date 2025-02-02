@@ -1,0 +1,6 @@
+@LocalShopAPI_HostAddress = http://localhost:5001
+
+GET {{LocalShopAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
